@@ -1,0 +1,971 @@
+./backup/TypeSerializerWrapper.java
+./src/test/java/perf/RecordBase.java
+./src/test/java/perf/ManualReadPerfWithRecord.java
+./src/test/java/perf/ObjectReaderBase.java
+./src/test/java/perf/MediaItem.java
+./src/test/java/perf/RecordAsArray.java
+./src/test/java/perf/NopOutputStream.java
+./src/test/java/perf/ManualObjectWriterPerf.java
+./src/test/java/perf/ManualReadPerfWithMedia.java
+./src/test/java/perf/Record.java
+./src/test/java/com/fasterxml/jackson/databind/TestGeneratorUsingMapper.java
+./src/test/java/com/fasterxml/jackson/databind/TestStdNamingStrategies.java
+./src/test/java/com/fasterxml/jackson/databind/TestRootName.java
+./src/test/java/com/fasterxml/jackson/databind/TestFormatSchema.java
+./src/test/java/com/fasterxml/jackson/databind/access/TestSerAnyGetter.java
+./src/test/java/com/fasterxml/jackson/databind/util/TestTokenBuffer.java
+./src/test/java/com/fasterxml/jackson/databind/util/TestClassUtil.java
+./src/test/java/com/fasterxml/jackson/databind/util/TestObjectBuffer.java
+./src/test/java/com/fasterxml/jackson/databind/util/ISO8601DateFormatTest.java
+./src/test/java/com/fasterxml/jackson/databind/util/ArrayBuildersTest.java
+./src/test/java/com/fasterxml/jackson/databind/util/ISO8601UtilsTest.java
+./src/test/java/com/fasterxml/jackson/databind/introspect/TestBuilderMethods.java
+./src/test/java/com/fasterxml/jackson/databind/introspect/TestAnnotionBundles.java
+./src/test/java/com/fasterxml/jackson/databind/introspect/TestAnnotationMerging.java
+./src/test/java/com/fasterxml/jackson/databind/introspect/TestInferredMutators.java
+./src/test/java/com/fasterxml/jackson/databind/introspect/TestPOJOPropertiesCollector.java
+./src/test/java/com/fasterxml/jackson/databind/introspect/TestJacksonAnnotationIntrospector.java
+./src/test/java/com/fasterxml/jackson/databind/TestHandlerInstantiation.java
+./src/test/java/com/fasterxml/jackson/databind/mixins/TestMixinDeserForClass.java
+./src/test/java/com/fasterxml/jackson/databind/mixins/TestMixinSerForClass.java
+./src/test/java/com/fasterxml/jackson/databind/mixins/TestMixinInheritance.java
+./src/test/java/com/fasterxml/jackson/databind/mixins/TestMixinDeserForCreators.java
+./src/test/java/com/fasterxml/jackson/databind/mixins/TestMixinSerForFields.java
+./src/test/java/com/fasterxml/jackson/databind/mixins/TestMixinSerWithViews.java
+./src/test/java/com/fasterxml/jackson/databind/mixins/TestMixinSerForMethods.java
+./src/test/java/com/fasterxml/jackson/databind/mixins/TestMixinDeserForMethods.java
+./src/test/java/com/fasterxml/jackson/databind/TestVersions.java
+./src/test/java/com/fasterxml/jackson/databind/contextual/TestContextualWithAnnDeserializer.java
+./src/test/java/com/fasterxml/jackson/databind/contextual/TestContextualSerialization.java
+./src/test/java/com/fasterxml/jackson/databind/contextual/TestContextualDeserialization.java
+./src/test/java/com/fasterxml/jackson/databind/contextual/TestContextualKeyTypes.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestCyclicTypes.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestAnyProperties.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestJdkTypes.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestCollectionDeserialization.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestBlocking.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestIgnoredTypes.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestValueAnnotations.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestOverloaded.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestInjectables.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestCustomFactory.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestExceptionDeserialization.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestEnumDeserialization.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestCustomDeserializers.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestAutoDetect.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestGenericsBounded.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestExceptionHandling.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestBasicAnnotations.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestConfig.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestSimpleTypes.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestGenericNumber.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestTimestampDeserialization.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestGenericMapDeser.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestConcurrency.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestSimpleAtomicTypes.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestStatics.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestInnerClass.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestUntypedDeserialization.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestJacksonTypes.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestAbstract.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestDateDeserialization.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestGenericCollectionDeser.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestSetterlessProperties.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestAnnotationUsing.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestParentChildReferences.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestNullHandling.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestGenerics.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestAnnotationIgnore.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestNumbers.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestMapDeserialization.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestBeanDeserializer.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestFieldDeserialization.java
+./src/test/java/com/fasterxml/jackson/databind/deser/TestArrayDeserialization.java
+./src/test/java/com/fasterxml/jackson/databind/module/TestKeyDeserializers.java
+./src/test/java/com/fasterxml/jackson/databind/module/TestSimpleModule.java
+./src/test/java/com/fasterxml/jackson/databind/module/TestTypeModifiers.java
+./src/test/java/com/fasterxml/jackson/databind/module/TestAbstractTypes.java
+./src/test/java/com/fasterxml/jackson/databind/interop/TestJDKProxy.java
+./src/test/java/com/fasterxml/jackson/databind/interop/TestGroovyBeans.java
+./src/test/java/com/fasterxml/jackson/databind/interop/TestExternalizable.java
+./src/test/java/com/fasterxml/jackson/databind/interop/TestCglibUsage.java
+./src/test/java/com/fasterxml/jackson/databind/interop/TestHibernate.java
+./src/test/java/com/fasterxml/jackson/databind/interop/TestFormatDetection.java
+./src/test/java/com/fasterxml/jackson/databind/TestStdDateFormat.java
+./src/test/java/com/fasterxml/jackson/databind/ext/TestDOM.java
+./src/test/java/com/fasterxml/jackson/databind/ext/TestCoreXMLTypes.java
+./src/test/java/com/fasterxml/jackson/databind/TestJDKSerialization.java
+./src/test/java/com/fasterxml/jackson/databind/TestObjectMapper.java
+./src/test/java/com/fasterxml/jackson/databind/struct/TestObjectIdWithPolymorphic.java
+./src/test/java/com/fasterxml/jackson/databind/struct/TestFormatForCollections.java
+./src/test/java/com/fasterxml/jackson/databind/struct/TestObjectIdSerialization.java
+./src/test/java/com/fasterxml/jackson/databind/struct/TestPOJOAsArrayWithBuilder.java
+./src/test/java/com/fasterxml/jackson/databind/struct/TestObjectIdDeserialization.java
+./src/test/java/com/fasterxml/jackson/databind/struct/TestUnwrappedWithPrefix.java
+./src/test/java/com/fasterxml/jackson/databind/struct/TestPOJOAsArrayAdvanced.java
+./src/test/java/com/fasterxml/jackson/databind/struct/TestObjectId.java
+./src/test/java/com/fasterxml/jackson/databind/struct/TestUnwrapped.java
+./src/test/java/com/fasterxml/jackson/databind/struct/TestPOJOAsArray.java
+./src/test/java/com/fasterxml/jackson/databind/TestObjectMapperBeanSerializer.java
+./src/test/java/com/fasterxml/jackson/databind/type/TestTypeFactory.java
+./src/test/java/com/fasterxml/jackson/databind/type/TestTypeResolution.java
+./src/test/java/com/fasterxml/jackson/databind/type/TestTypeBindings.java
+./src/test/java/com/fasterxml/jackson/databind/type/TestAnnotatedClass.java
+./src/test/java/com/fasterxml/jackson/databind/type/TestJavaType.java
+./src/test/java/com/fasterxml/jackson/databind/type/TestGenericFieldInSubtype.java
+./src/test/java/com/fasterxml/jackson/databind/jsonschema/TestReadJsonSchema.java
+./src/test/java/com/fasterxml/jackson/databind/jsonschema/TestGenerateJsonSchema.java
+./src/test/java/com/fasterxml/jackson/databind/creators/TestPolymorphicCreators.java
+./src/test/java/com/fasterxml/jackson/databind/creators/TestCreators.java
+./src/test/java/com/fasterxml/jackson/databind/creators/TestCreators2.java
+./src/test/java/com/fasterxml/jackson/databind/creators/TestCreatorNullValue.java
+./src/test/java/com/fasterxml/jackson/databind/creators/TestConstructFromMap.java
+./src/test/java/com/fasterxml/jackson/databind/creators/TestValueInstantiator.java
+./src/test/java/com/fasterxml/jackson/databind/creators/TestBuilderSimple.java
+./src/test/java/com/fasterxml/jackson/databind/creators/TestCreatorsDelegating.java
+./src/test/java/com/fasterxml/jackson/databind/TestNamingStrategy.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestObjectWriter.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestEmptyClass.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestAnnotationInheritance.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestCyclicTypes.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestJSONP.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestJdkTypes.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestBeanSerializer.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestSerializationOrder.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestArraySerialization.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestNullProperties.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestFeatures.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestTypedRootValueSerialization.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestMapSerialization.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestJsonSerialize.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestSerializerProvider.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestFiltering.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestJsonRawValue.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestAutoDetect.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestAnnotations.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestExceptionHandling.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestCollectionSerialization.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestExceptionSerialization.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestCustomSerializers.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestConfig.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestSimpleTypes.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestDateSerialization.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestEnumSerialization.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestJsonSerializeAs.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestTreeSerialization.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestNullSerialization.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestKeySerializers.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestUntypedSerialization.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestSimpleAtomicTypes.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestFieldSerialization.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestStatics.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestRootType.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestGenericTypes.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestJacksonTypes.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestJsonSerialize3.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestJsonValue.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestJsonSerialize2.java
+./src/test/java/com/fasterxml/jackson/databind/ser/TestAnyGetter.java
+./src/test/java/com/fasterxml/jackson/databind/TestReadValues.java
+./src/test/java/com/fasterxml/jackson/databind/filter/TestUnknownPropertyDeserialization.java
+./src/test/java/com/fasterxml/jackson/databind/filter/TestSimpleSerializationIgnore.java
+./src/test/java/com/fasterxml/jackson/databind/filter/TestIgnorePropsForSerialization.java
+./src/test/java/com/fasterxml/jackson/databind/node/TestMissingNode.java
+./src/test/java/com/fasterxml/jackson/databind/node/TestTreeMapperMaps.java
+./src/test/java/com/fasterxml/jackson/databind/node/TestTreeMapperSerializer.java
+./src/test/java/com/fasterxml/jackson/databind/node/NodeTestBase.java
+./src/test/java/com/fasterxml/jackson/databind/node/TestNumberNodes.java
+./src/test/java/com/fasterxml/jackson/databind/node/TestTreeDeserialization.java
+./src/test/java/com/fasterxml/jackson/databind/node/TestArrayNode.java
+./src/test/java/com/fasterxml/jackson/databind/node/TestDeepCopy.java
+./src/test/java/com/fasterxml/jackson/databind/node/TestTreeTraversingParser.java
+./src/test/java/com/fasterxml/jackson/databind/node/TestFindMethods.java
+./src/test/java/com/fasterxml/jackson/databind/node/TestConversions.java
+./src/test/java/com/fasterxml/jackson/databind/node/TestObjectNode.java
+./src/test/java/com/fasterxml/jackson/databind/node/TestJsonNode.java
+./src/test/java/com/fasterxml/jackson/databind/node/TestTreeMapperDeserializer.java
+./src/test/java/com/fasterxml/jackson/databind/node/TestNullNode.java
+./src/test/java/com/fasterxml/jackson/databind/BaseMapTest.java
+./src/test/java/com/fasterxml/jackson/databind/TestParserUsingMapper.java
+./src/test/java/com/fasterxml/jackson/databind/views/TestViewsSerialization2.java
+./src/test/java/com/fasterxml/jackson/databind/views/TestViewDeserialization.java
+./src/test/java/com/fasterxml/jackson/databind/views/TestViewSerialization.java
+./src/test/java/com/fasterxml/jackson/databind/TestObjectMapperBeanDeserializer.java
+./src/test/java/com/fasterxml/jackson/databind/jsontype/TestTypedDeserializationWithDefault.java
+./src/test/java/com/fasterxml/jackson/databind/jsontype/TestWithGenerics.java
+./src/test/java/com/fasterxml/jackson/databind/jsontype/TestEnumTyping.java
+./src/test/java/com/fasterxml/jackson/databind/jsontype/TestExternalId.java
+./src/test/java/com/fasterxml/jackson/databind/jsontype/TestDefaultWithCreators.java
+./src/test/java/com/fasterxml/jackson/databind/jsontype/TestNoTypeInfo.java
+./src/test/java/com/fasterxml/jackson/databind/jsontype/TestScalars.java
+./src/test/java/com/fasterxml/jackson/databind/jsontype/TestDefaultForArrays.java
+./src/test/java/com/fasterxml/jackson/databind/jsontype/TestTypedArrayDeserialization.java
+./src/test/java/com/fasterxml/jackson/databind/jsontype/TestVisibleTypeId.java
+./src/test/java/com/fasterxml/jackson/databind/jsontype/TestPropertyTypeInfo.java
+./src/test/java/com/fasterxml/jackson/databind/jsontype/TestDefaultForScalars.java
+./src/test/java/com/fasterxml/jackson/databind/jsontype/TestTypedContainerSerialization.java
+./src/test/java/com/fasterxml/jackson/databind/jsontype/TestDefaultForMaps.java
+./src/test/java/com/fasterxml/jackson/databind/jsontype/TestDefaultForLists.java
+./src/test/java/com/fasterxml/jackson/databind/jsontype/TestTypeNames.java
+./src/test/java/com/fasterxml/jackson/databind/jsontype/TestAbstractTypeNames.java
+./src/test/java/com/fasterxml/jackson/databind/jsontype/TestSubtypes.java
+./src/test/java/com/fasterxml/jackson/databind/jsontype/TestTypedDeserialization.java
+./src/test/java/com/fasterxml/jackson/databind/jsontype/TestAbstractWithObjectId.java
+./src/test/java/com/fasterxml/jackson/databind/jsontype/TestCustomTypeIdResolver.java
+./src/test/java/com/fasterxml/jackson/databind/jsontype/TestDefaultForObject.java
+./src/test/java/com/fasterxml/jackson/databind/jsontype/TestGenericListSerialization.java
+./src/test/java/com/fasterxml/jackson/databind/jsontype/TestTypedSerialization.java
+./src/test/java/com/fasterxml/jackson/databind/jsontype/TestTypedArraySerialization.java
+./src/test/java/com/fasterxml/jackson/databind/jsontype/TestDefaultForEnums.java
+./src/test/java/com/fasterxml/jackson/databind/convert/TestArrayConversions.java
+./src/test/java/com/fasterxml/jackson/databind/convert/TestConvertingSerializer.java
+./src/test/java/com/fasterxml/jackson/databind/convert/TestMapConversions.java
+./src/test/java/com/fasterxml/jackson/databind/convert/TestBeanConversions.java
+./src/test/java/com/fasterxml/jackson/databind/convert/TestUpdateValue.java
+./src/test/java/com/fasterxml/jackson/databind/convert/TestStringConversions.java
+./src/test/java/com/fasterxml/jackson/databind/convert/TestConvertingDeserializer.java
+./src/test/java/com/fasterxml/jackson/databind/convert/TestPolymorphicUpdateValue.java
+./src/test/java/com/fasterxml/jackson/test/BaseTest.java
+./src/test/java/com/fasterxml/jackson/test/BrokenStringWriter.java
+./src/test/java/com/fasterxml/jackson/test/BrokenStringReader.java
+./src/test/java/com/fasterxml/jackson/failing/TestNameConflicts.java
+./src/test/java/com/fasterxml/jackson/failing/TestExternalTypeId.java
+./src/test/java/com/fasterxml/jackson/failing/TestIssueGH113.java
+./src/test/java/com/fasterxml/jackson/failing/TestObjectIdSerialization.java
+./src/test/java/com/fasterxml/jackson/failing/TestSerializationFiltering.java
+./src/test/java/com/fasterxml/jackson/failing/TestMapJsonValueKey.java
+./src/test/java/com/fasterxml/jackson/failing/TestUnwrappedWithPrefix.java
+./src/test/java/com/fasterxml/jackson/failing/TestTypeAliases.java
+./src/test/java/com/fasterxml/jackson/failing/TestInnerClass.java
+./src/test/java/com/fasterxml/jackson/failing/TestBackRefsWithPolymorphic.java
+./src/test/java/com/fasterxml/jackson/failing/TestJavaType.java
+./src/test/java/com/fasterxml/jackson/failing/TestTreeWithType.java
+./src/test/java/com/fasterxml/jackson/failing/TestPOJOAsArray.java
+./src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java
+./src/main/java/com/fasterxml/jackson/databind/RuntimeJsonMappingException.java
+./src/main/java/com/fasterxml/jackson/databind/JavaType.java
+./src/main/java/com/fasterxml/jackson/databind/JsonNode.java
+./src/main/java/com/fasterxml/jackson/databind/util/TokenBuffer.java
+./src/main/java/com/fasterxml/jackson/databind/util/Annotations.java
+./src/main/java/com/fasterxml/jackson/databind/util/Provider.java
+./src/main/java/com/fasterxml/jackson/databind/util/SimpleBeanPropertyDefinition.java
+./src/main/java/com/fasterxml/jackson/databind/util/LinkedNode.java
+./src/main/java/com/fasterxml/jackson/databind/util/EnumValues.java
+./src/main/java/com/fasterxml/jackson/databind/util/ISO8601Utils.java
+./src/main/java/com/fasterxml/jackson/databind/util/BeanUtil.java
+./src/main/java/com/fasterxml/jackson/databind/util/ViewMatcher.java
+./src/main/java/com/fasterxml/jackson/databind/util/ArrayBuilders.java
+./src/main/java/com/fasterxml/jackson/databind/util/JSONWrappedObject.java
+./src/main/java/com/fasterxml/jackson/databind/util/ObjectBuffer.java
+./src/main/java/com/fasterxml/jackson/databind/util/JSONPObject.java
+./src/main/java/com/fasterxml/jackson/databind/util/ObjectIdMap.java
+./src/main/java/com/fasterxml/jackson/databind/util/StdConverter.java
+./src/main/java/com/fasterxml/jackson/databind/util/Converter.java
+./src/main/java/com/fasterxml/jackson/databind/util/RootNameLookup.java
+./src/main/java/com/fasterxml/jackson/databind/util/StdDateFormat.java
+./src/main/java/com/fasterxml/jackson/databind/util/Named.java
+./src/main/java/com/fasterxml/jackson/databind/util/ISO8601DateFormat.java
+./src/main/java/com/fasterxml/jackson/databind/util/ClassUtil.java
+./src/main/java/com/fasterxml/jackson/databind/util/EmptyIterator.java
+./src/main/java/com/fasterxml/jackson/databind/util/NameTransformer.java
+./src/main/java/com/fasterxml/jackson/databind/util/PrimitiveArrayBuilder.java
+./src/main/java/com/fasterxml/jackson/databind/util/LRUMap.java
+./src/main/java/com/fasterxml/jackson/databind/util/EnumResolver.java
+./src/main/java/com/fasterxml/jackson/databind/util/package-info.java
+./src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedClass.java
+./src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedMethod.java
+./src/main/java/com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java
+./src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedWithParams.java
+./src/main/java/com/fasterxml/jackson/databind/introspect/Annotated.java
+./src/main/java/com/fasterxml/jackson/databind/introspect/WithMember.java
+./src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedConstructor.java
+./src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedParameter.java
+./src/main/java/com/fasterxml/jackson/databind/introspect/MemberKey.java
+./src/main/java/com/fasterxml/jackson/databind/introspect/BeanPropertyDefinition.java
+./src/main/java/com/fasterxml/jackson/databind/introspect/NopAnnotationIntrospector.java
+./src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedMember.java
+./src/main/java/com/fasterxml/jackson/databind/introspect/AnnotationMap.java
+./src/main/java/com/fasterxml/jackson/databind/introspect/BasicBeanDescription.java
+./src/main/java/com/fasterxml/jackson/databind/introspect/ObjectIdInfo.java
+./src/main/java/com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder.java
+./src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedMethodMap.java
+./src/main/java/com/fasterxml/jackson/databind/introspect/POJOPropertiesCollector.java
+./src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedField.java
+./src/main/java/com/fasterxml/jackson/databind/introspect/ClassIntrospector.java
+./src/main/java/com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java
+./src/main/java/com/fasterxml/jackson/databind/introspect/BasicClassIntrospector.java
+./src/main/java/com/fasterxml/jackson/databind/introspect/VisibilityChecker.java
+./src/main/java/com/fasterxml/jackson/databind/introspect/package-info.java
+./src/main/java/com/fasterxml/jackson/databind/JsonSerializable.java
+./src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java
+./src/main/java/com/fasterxml/jackson/databind/Module.java
+./src/main/java/com/fasterxml/jackson/databind/JsonDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/BeanDescription.java
+./src/main/java/com/fasterxml/jackson/databind/SerializationFeature.java
+./src/main/java/com/fasterxml/jackson/databind/deser/impl/NullProvider.java
+./src/main/java/com/fasterxml/jackson/databind/deser/impl/PropertyValueBuffer.java
+./src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java
+./src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdValueProperty.java
+./src/main/java/com/fasterxml/jackson/databind/deser/impl/ManagedReferenceProperty.java
+./src/main/java/com/fasterxml/jackson/databind/deser/impl/FieldProperty.java
+./src/main/java/com/fasterxml/jackson/databind/deser/impl/PropertyBasedObjectIdGenerator.java
+./src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReader.java
+./src/main/java/com/fasterxml/jackson/databind/deser/impl/PropertyValue.java
+./src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java
+./src/main/java/com/fasterxml/jackson/databind/deser/impl/ReadableObjectId.java
+./src/main/java/com/fasterxml/jackson/databind/deser/impl/TypeWrappedDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/deser/impl/UnwrappedPropertyHandler.java
+./src/main/java/com/fasterxml/jackson/databind/deser/impl/ValueInjector.java
+./src/main/java/com/fasterxml/jackson/databind/deser/impl/PropertyBasedCreator.java
+./src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanAsArrayBuilderDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java
+./src/main/java/com/fasterxml/jackson/databind/deser/impl/MethodProperty.java
+./src/main/java/com/fasterxml/jackson/databind/deser/impl/package-info.java
+./src/main/java/com/fasterxml/jackson/databind/deser/impl/InnerClassProperty.java
+./src/main/java/com/fasterxml/jackson/databind/deser/impl/SetterlessProperty.java
+./src/main/java/com/fasterxml/jackson/databind/deser/ValueInstantiators.java
+./src/main/java/com/fasterxml/jackson/databind/deser/SettableAnyProperty.java
+./src/main/java/com/fasterxml/jackson/databind/deser/DeserializationProblemHandler.java
+./src/main/java/com/fasterxml/jackson/databind/deser/CreatorProperty.java
+./src/main/java/com/fasterxml/jackson/databind/deser/BuilderBasedDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/deser/ContextualDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/deser/Deserializers.java
+./src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializerModifier.java
+./src/main/java/com/fasterxml/jackson/databind/deser/AbstractDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/deser/std/ThrowableDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/deser/std/StringArrayDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/deser/std/PrimitiveArrayDeserializers.java
+./src/main/java/com/fasterxml/jackson/databind/deser/std/NumberDeserializers.java
+./src/main/java/com/fasterxml/jackson/databind/deser/std/ObjectArrayDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/deser/std/StdKeyDeserializers.java
+./src/main/java/com/fasterxml/jackson/databind/deser/std/UntypedObjectDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/deser/std/JsonNodeDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/deser/std/StdScalarDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/deser/std/NullifyingDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/deser/std/CollectionDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/deser/std/EnumDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/deser/std/ClassDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/deser/std/EnumSetDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/deser/std/StdKeyDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/deser/std/StringDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/deser/std/MapDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/deser/std/JdkDeserializers.java
+./src/main/java/com/fasterxml/jackson/databind/deser/std/StdDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/deser/std/DelegatingDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/deser/std/StdDelegatingDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/deser/std/ArrayBlockingQueueDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/deser/std/ContainerDeserializerBase.java
+./src/main/java/com/fasterxml/jackson/databind/deser/std/EnumMapDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/deser/std/StringCollectionDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/deser/std/StdValueInstantiator.java
+./src/main/java/com/fasterxml/jackson/databind/deser/std/DateDeserializers.java
+./src/main/java/com/fasterxml/jackson/databind/deser/std/package-info.java
+./src/main/java/com/fasterxml/jackson/databind/deser/std/JacksonDeserializers.java
+./src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java
+./src/main/java/com/fasterxml/jackson/databind/deser/ResolvableDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/deser/BasicDeserializerFactory.java
+./src/main/java/com/fasterxml/jackson/databind/deser/DefaultDeserializationContext.java
+./src/main/java/com/fasterxml/jackson/databind/deser/KeyDeserializers.java
+./src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java
+./src/main/java/com/fasterxml/jackson/databind/deser/SettableBeanProperty.java
+./src/main/java/com/fasterxml/jackson/databind/deser/DeserializerFactory.java
+./src/main/java/com/fasterxml/jackson/databind/deser/DataFormatReaders.java
+./src/main/java/com/fasterxml/jackson/databind/deser/DeserializerCache.java
+./src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializerBuilder.java
+./src/main/java/com/fasterxml/jackson/databind/deser/package-info.java
+./src/main/java/com/fasterxml/jackson/databind/deser/ContextualKeyDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/deser/ValueInstantiator.java
+./src/main/java/com/fasterxml/jackson/databind/module/SimpleSerializers.java
+./src/main/java/com/fasterxml/jackson/databind/module/SimpleDeserializers.java
+./src/main/java/com/fasterxml/jackson/databind/module/SimpleKeyDeserializers.java
+./src/main/java/com/fasterxml/jackson/databind/module/SimpleModule.java
+./src/main/java/com/fasterxml/jackson/databind/module/SimpleAbstractTypeResolver.java
+./src/main/java/com/fasterxml/jackson/databind/module/SimpleValueInstantiators.java
+./src/main/java/com/fasterxml/jackson/databind/module/package-info.java
+./src/main/java/com/fasterxml/jackson/databind/ext/DOMDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/ext/DOMSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ext/OptionalHandlerFactory.java
+./src/main/java/com/fasterxml/jackson/databind/ext/CoreXMLSerializers.java
+./src/main/java/com/fasterxml/jackson/databind/ext/CoreXMLDeserializers.java
+./src/main/java/com/fasterxml/jackson/databind/ext/package-info.java
+./src/main/java/com/fasterxml/jackson/databind/SerializerProvider.java
+./src/main/java/com/fasterxml/jackson/databind/KeyDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/annotation/JsonPOJOBuilder.java
+./src/main/java/com/fasterxml/jackson/databind/annotation/JsonNaming.java
+./src/main/java/com/fasterxml/jackson/databind/annotation/JsonValueInstantiator.java
+./src/main/java/com/fasterxml/jackson/databind/annotation/JsonDeserialize.java
+./src/main/java/com/fasterxml/jackson/databind/annotation/NoClass.java
+./src/main/java/com/fasterxml/jackson/databind/annotation/JsonSerialize.java
+./src/main/java/com/fasterxml/jackson/databind/annotation/JsonTypeResolver.java
+./src/main/java/com/fasterxml/jackson/databind/annotation/JsonTypeIdResolver.java
+./src/main/java/com/fasterxml/jackson/databind/annotation/package-info.java
+./src/main/java/com/fasterxml/jackson/databind/annotation/JacksonStdImpl.java
+./src/main/java/com/fasterxml/jackson/databind/PropertyName.java
+./src/main/java/com/fasterxml/jackson/databind/JsonMappingException.java
+./src/main/java/com/fasterxml/jackson/databind/MapperFeature.java
+./src/main/java/com/fasterxml/jackson/databind/cfg/DeserializerFactoryConfig.java
+./src/main/java/com/fasterxml/jackson/databind/cfg/BaseSettings.java
+./src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java
+./src/main/java/com/fasterxml/jackson/databind/cfg/HandlerInstantiator.java
+./src/main/java/com/fasterxml/jackson/databind/cfg/PackageVersion.java
+./src/main/java/com/fasterxml/jackson/databind/cfg/SerializerFactoryConfig.java
+./src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfig.java
+./src/main/java/com/fasterxml/jackson/databind/cfg/package-info.java
+./src/main/java/com/fasterxml/jackson/databind/cfg/ConfigFeature.java
+./src/main/java/com/fasterxml/jackson/databind/DatabindContext.java
+./src/main/java/com/fasterxml/jackson/databind/JsonSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/type/TypeFactory.java
+./src/main/java/com/fasterxml/jackson/databind/type/MapLikeType.java
+./src/main/java/com/fasterxml/jackson/databind/type/TypeBindings.java
+./src/main/java/com/fasterxml/jackson/databind/type/ClassKey.java
+./src/main/java/com/fasterxml/jackson/databind/type/MapType.java
+./src/main/java/com/fasterxml/jackson/databind/type/TypeBase.java
+./src/main/java/com/fasterxml/jackson/databind/type/TypeModifier.java
+./src/main/java/com/fasterxml/jackson/databind/type/HierarchicType.java
+./src/main/java/com/fasterxml/jackson/databind/type/TypeParser.java
+./src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java
+./src/main/java/com/fasterxml/jackson/databind/type/ArrayType.java
+./src/main/java/com/fasterxml/jackson/databind/type/CollectionLikeType.java
+./src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java
+./src/main/java/com/fasterxml/jackson/databind/type/package-info.java
+./src/main/java/com/fasterxml/jackson/databind/DeserializationFeature.java
+./src/main/java/com/fasterxml/jackson/databind/jsonschema/JsonSerializableSchema.java
+./src/main/java/com/fasterxml/jackson/databind/jsonschema/SchemaAware.java
+./src/main/java/com/fasterxml/jackson/databind/jsonschema/JsonSchema.java
+./src/main/java/com/fasterxml/jackson/databind/jsonschema/package-info.java
+./src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java
+./src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java
+./src/main/java/com/fasterxml/jackson/databind/BeanProperty.java
+./src/main/java/com/fasterxml/jackson/databind/exc/InvalidFormatException.java
+./src/main/java/com/fasterxml/jackson/databind/exc/UnrecognizedPropertyException.java
+./src/main/java/com/fasterxml/jackson/databind/ser/impl/TypeWrappedSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter.java
+./src/main/java/com/fasterxml/jackson/databind/ser/impl/SimpleFilterProvider.java
+./src/main/java/com/fasterxml/jackson/databind/ser/impl/JsonSerializerMap.java
+./src/main/java/com/fasterxml/jackson/databind/ser/impl/PropertyBasedObjectIdGenerator.java
+./src/main/java/com/fasterxml/jackson/databind/ser/impl/PropertySerializerMap.java
+./src/main/java/com/fasterxml/jackson/databind/ser/impl/StringArraySerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/impl/ObjectIdWriter.java
+./src/main/java/com/fasterxml/jackson/databind/ser/impl/StringCollectionSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedStringListSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/impl/FailingSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/impl/IndexedListSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/impl/WritableObjectId.java
+./src/main/java/com/fasterxml/jackson/databind/ser/impl/ReadOnlyClassToSerializerMap.java
+./src/main/java/com/fasterxml/jackson/databind/ser/impl/IteratorSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/impl/SimpleBeanPropertyFilter.java
+./src/main/java/com/fasterxml/jackson/databind/ser/impl/UnknownSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/impl/package-info.java
+./src/main/java/com/fasterxml/jackson/databind/ser/impl/FilteredBeanPropertyWriter.java
+./src/main/java/com/fasterxml/jackson/databind/ser/DefaultSerializerProvider.java
+./src/main/java/com/fasterxml/jackson/databind/ser/Serializers.java
+./src/main/java/com/fasterxml/jackson/databind/ser/BeanSerializerBuilder.java
+./src/main/java/com/fasterxml/jackson/databind/ser/AnyGetterWriter.java
+./src/main/java/com/fasterxml/jackson/databind/ser/SerializerCache.java
+./src/main/java/com/fasterxml/jackson/databind/ser/ResolvableSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/FilterProvider.java
+./src/main/java/com/fasterxml/jackson/databind/ser/BeanPropertyFilter.java
+./src/main/java/com/fasterxml/jackson/databind/ser/BeanSerializerFactory.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/StdContainerSerializers.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/BeanSerializerBase.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/BooleanSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/JsonValueSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/ObjectArraySerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/SqlTimeSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/IterableSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/StdKeySerializers.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/StdDelegatingSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/NumberSerializers.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/AsArraySerializerBase.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/EnumSetSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/DateTimeSerializerBase.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/StaticListSerializerBase.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/StdScalarSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/ToStringSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/StdJdkSerializers.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/MapSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/RawSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/CalendarSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/CollectionSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/InetAddressSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/SerializableSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/TimeZoneSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/StringSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/NonTypedScalarSerializerBase.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/ArraySerializerBase.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/DateSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/NullSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/SqlDateSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/TokenBufferSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/EnumMapSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/StdKeySerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/StdSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/EnumSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/std/StdArraySerializers.java
+./src/main/java/com/fasterxml/jackson/databind/ser/BeanSerializerModifier.java
+./src/main/java/com/fasterxml/jackson/databind/ser/BasicSerializerFactory.java
+./src/main/java/com/fasterxml/jackson/databind/ser/ContextualSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/BeanSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/ContainerSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/ser/SerializerFactory.java
+./src/main/java/com/fasterxml/jackson/databind/ser/PropertyBuilder.java
+./src/main/java/com/fasterxml/jackson/databind/ser/BeanPropertyWriter.java
+./src/main/java/com/fasterxml/jackson/databind/ser/package-info.java
+./src/main/java/com/fasterxml/jackson/databind/ObjectReader.java
+./src/main/java/com/fasterxml/jackson/databind/node/NullNode.java
+./src/main/java/com/fasterxml/jackson/databind/node/JsonNodeFactory.java
+./src/main/java/com/fasterxml/jackson/databind/node/ShortNode.java
+./src/main/java/com/fasterxml/jackson/databind/node/BigIntegerNode.java
+./src/main/java/com/fasterxml/jackson/databind/node/BinaryNode.java
+./src/main/java/com/fasterxml/jackson/databind/node/DecimalNode.java
+./src/main/java/com/fasterxml/jackson/databind/node/MissingNode.java
+./src/main/java/com/fasterxml/jackson/databind/node/DoubleNode.java
+./src/main/java/com/fasterxml/jackson/databind/node/ObjectNode.java
+./src/main/java/com/fasterxml/jackson/databind/node/BaseJsonNode.java
+./src/main/java/com/fasterxml/jackson/databind/node/IntNode.java
+./src/main/java/com/fasterxml/jackson/databind/node/JsonNodeType.java
+./src/main/java/com/fasterxml/jackson/databind/node/POJONode.java
+./src/main/java/com/fasterxml/jackson/databind/node/ValueNode.java
+./src/main/java/com/fasterxml/jackson/databind/node/TextNode.java
+./src/main/java/com/fasterxml/jackson/databind/node/NodeCursor.java
+./src/main/java/com/fasterxml/jackson/databind/node/NumericNode.java
+./src/main/java/com/fasterxml/jackson/databind/node/TreeTraversingParser.java
+./src/main/java/com/fasterxml/jackson/databind/node/ArrayNode.java
+./src/main/java/com/fasterxml/jackson/databind/node/LongNode.java
+./src/main/java/com/fasterxml/jackson/databind/node/ContainerNode.java
+./src/main/java/com/fasterxml/jackson/databind/node/package-info.java
+./src/main/java/com/fasterxml/jackson/databind/node/FloatNode.java
+./src/main/java/com/fasterxml/jackson/databind/node/BooleanNode.java
+./src/main/java/com/fasterxml/jackson/databind/InjectableValues.java
+./src/main/java/com/fasterxml/jackson/databind/jsonFormatVisitors/JsonArrayFormatVisitor.java
+./src/main/java/com/fasterxml/jackson/databind/jsonFormatVisitors/JsonStringFormatVisitor.java
+./src/main/java/com/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitable.java
+./src/main/java/com/fasterxml/jackson/databind/jsonFormatVisitors/JsonObjectFormatVisitor.java
+./src/main/java/com/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatTypes.java
+./src/main/java/com/fasterxml/jackson/databind/jsonFormatVisitors/JsonIntegerFormatVisitor.java
+./src/main/java/com/fasterxml/jackson/databind/jsonFormatVisitors/JsonValueFormat.java
+./src/main/java/com/fasterxml/jackson/databind/jsonFormatVisitors/JsonMapFormatVisitor.java
+./src/main/java/com/fasterxml/jackson/databind/jsonFormatVisitors/JsonNullFormatVisitor.java
+./src/main/java/com/fasterxml/jackson/databind/jsonFormatVisitors/JsonNumberFormatVisitor.java
+./src/main/java/com/fasterxml/jackson/databind/jsonFormatVisitors/JsonAnyFormatVisitor.java
+./src/main/java/com/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWithSerializerProvider.java
+./src/main/java/com/fasterxml/jackson/databind/jsonFormatVisitors/JsonValueFormatVisitor.java
+./src/main/java/com/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWrapper.java
+./src/main/java/com/fasterxml/jackson/databind/jsonFormatVisitors/JsonBooleanFormatVisitor.java
+./src/main/java/com/fasterxml/jackson/databind/MappingJsonFactory.java
+./src/main/java/com/fasterxml/jackson/databind/PropertyNamingStrategy.java
+./src/main/java/com/fasterxml/jackson/databind/AnnotationIntrospector.java
+./src/main/java/com/fasterxml/jackson/databind/package-info.java
+./src/main/java/com/fasterxml/jackson/databind/ObjectWriter.java
+./src/main/java/com/fasterxml/jackson/databind/MappingIterator.java
+./src/main/java/com/fasterxml/jackson/databind/jsontype/TypeResolverBuilder.java
+./src/main/java/com/fasterxml/jackson/databind/jsontype/impl/AsPropertyTypeSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/jsontype/impl/TypeSerializerBase.java
+./src/main/java/com/fasterxml/jackson/databind/jsontype/impl/MinimalClassNameIdResolver.java
+./src/main/java/com/fasterxml/jackson/databind/jsontype/impl/AsArrayTypeSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/jsontype/impl/AsExternalTypeSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/jsontype/impl/TypeIdResolverBase.java
+./src/main/java/com/fasterxml/jackson/databind/jsontype/impl/AsWrapperTypeDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/jsontype/impl/FailingDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/jsontype/impl/AsExternalTypeDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/jsontype/impl/StdSubtypeResolver.java
+./src/main/java/com/fasterxml/jackson/databind/jsontype/impl/TypeDeserializerBase.java
+./src/main/java/com/fasterxml/jackson/databind/jsontype/impl/AsArrayTypeDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/jsontype/impl/AsWrapperTypeSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/jsontype/impl/ClassNameIdResolver.java
+./src/main/java/com/fasterxml/jackson/databind/jsontype/impl/package-info.java
+./src/main/java/com/fasterxml/jackson/databind/jsontype/impl/StdTypeResolverBuilder.java
+./src/main/java/com/fasterxml/jackson/databind/jsontype/impl/TypeNameIdResolver.java
+./src/main/java/com/fasterxml/jackson/databind/jsontype/impl/AsPropertyTypeDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/jsontype/TypeIdResolver.java
+./src/main/java/com/fasterxml/jackson/databind/jsontype/TypeSerializer.java
+./src/main/java/com/fasterxml/jackson/databind/jsontype/TypeDeserializer.java
+./src/main/java/com/fasterxml/jackson/databind/jsontype/SubtypeResolver.java
+./src/main/java/com/fasterxml/jackson/databind/jsontype/NamedType.java
+./src/main/java/com/fasterxml/jackson/databind/jsontype/package-info.java
+./src/main/java/com/fasterxml/jackson/databind/AbstractTypeResolver.java
+
+done
+
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.struct.TestPOJOAsArray::testNullColumn
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.node.TestConversions::testConversionOfPojos
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.deser.TestArrayDeserialization::testStringArray
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.deser.TestCollectionDeserialization::testArrayIndexForExceptions
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.introspect.TestMixinMerging::testDisappearingMixins515
+NEW_CODE
+Failing tests: 2
+  - com.fasterxml.jackson.databind.deser.TestDateDeserialization::testISO8601MissingSeconds
+  - com.fasterxml.jackson.databind.deser.TestDateDeserialization::testISO8601PartialMilliseconds
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.creators.TestCreatorsDelegating::testDelegateWithTokenBuffer
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.deser.TestJdkTypes::testStringBuilder
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.ser.TestMapSerialization::testClassKey
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.ser.TestAnyGetter::testIssue705
+NEW_CODE
+Failing tests: 2
+  - com.fasterxml.jackson.databind.type.TestJavaType::testLocalType728
+  - com.fasterxml.jackson.databind.type.TestLocalType609::testLocalPartialType609
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.deser.TestCustomDeserializers::testCustomMapValueDeser735
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.struct.TestObjectIdDeserialization::testNullObjectId
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.convert.TestUpdateValue::testIssue744
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.convert.TestConvertingSerializer::testIssue731
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.mixins.MixinsWithBundlesTest::testMixinWithBundles
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.node.TestJsonNode::testArrayWithDefaultTyping
+NEW_CODE
+Failing tests: 3
+  - com.fasterxml.jackson.databind.seq.ReadRecoveryTest::testSimpleRootRecovery
+  - com.fasterxml.jackson.databind.seq.ReadRecoveryTest::testRootBeans
+  - com.fasterxml.jackson.databind.seq.ReadRecoveryTest::testSimpleArrayRecovery
+NEW_CODE
+Failing tests: 3
+  - com.fasterxml.jackson.databind.convert.TestMapConversions::testMapToProperties
+  - com.fasterxml.jackson.databind.deser.TestMapDeserialization::testReadProperties
+  - com.fasterxml.jackson.databind.type.TestTypeFactory::testProperties
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.introspect.TestNamingStrategyStd::testNamingWithObjectNode
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.deser.TestEnumDeserialization::testEnumWithJsonPropertyRename
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.ser.TestJsonValue::testJsonValueWithCustomOverride
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.ser.TestJsonSerialize2::testEmptyInclusionScalars
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.ser.TestConfig::testDateFormatConfig
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.deser.TestArrayDeserialization::testByteArrayTypeOverride890
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.TestJDKSerialization::testEnumHandlers
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.jsontype.TestExternalId::testInverseExternalId928
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.node.TestObjectNode::testIssue941
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.jsontype.TestExternalId::testExternalTypeIdWithNull
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.jsontype.TestExternalId::testBigDecimal965
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.util.TestTokenBuffer::testOutputContext
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.deser.TestUntypedDeserialization::testNestedUntyped989
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.struct.TestUnwrapped::testUnwrappedAsPropertyIndicator
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.jsonschema.NewSchemaTest::testSimpleNumbers
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.jsontype.WrapperObjectWithObjectIdTest::testSimple
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.TestStdDateFormat::testLenient
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.objectid.Objecid1083Test::testSimple
+NEW_CODE
+Failing tests: 3
+  - com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test::testExplicitMapType
+  - com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test::testExplicitCollectionType
+  - com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test::testPOJOSubType
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.jsontype.TestPolymorphicWithDefaultImpl::testUnknownTypeIDRecovery
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.deser.TestSimpleTypes::testEmptyToNullCoercionForPrimitives
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test::testDeprecatedTypeResolution
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.deser.TestJdkTypes::testLocale
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.objectid.TestObjectIdSerialization::testNullStringPropertyId
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.jsontype.TestSubtypes::testIssue1125WithDefault
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testDateDefaultShape
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.type.TestJavaType::testGenericSignature1195
+NEW_CODE
+Failing tests: 2
+  - com.fasterxml.jackson.databind.ser.TestJsonSerialize::testBrokenAnnotation
+  - com.fasterxml.jackson.databind.ser.TestJsonSerializeAs::testSpecializedAsIntermediate
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.ser.TestFeatures::testVisibilityFeatures
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.objectid.AlwaysAsReferenceFirstTest::testIssue1255
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.objectid.ObjectWithCreator1261Test::testObjectIds1261
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.jsontype.TestCustomTypeIdResolver::testPolymorphicTypeViaCustom
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeId999Test::testExternalTypeId
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.jsontype.TypeRefinementForMap1215Test::testMapRefinement
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.deser.TestJDKAtomicTypes::testEmpty1256
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.ser.TestEnumSerialization::testEnumsWithJsonPropertyAsKey
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.deser.TestJdkTypes::testLocale
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.seq.ReadValuesTest::testRootBeans
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.misc.AccessFixTest::testCauseOfThrowableIgnoral
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.jsontype.TypeRefinementForMapTest::testMapKeyRefinement1384
+NEW_CODE
+Failing tests: 2
+  - com.fasterxml.jackson.databind.jsontype.TestDefaultWithCreators::testWithCreatorAndJsonValue
+  - com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeIdTest::testWithAsValue
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.jsontype.DefaultTypingWithPrimitivesTest::testDefaultTypingWithLong
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.creators.ArrayDelegatorCreatorForCollectionTest::testUnmodifiable
+NEW_CODE
+Failing tests: 3
+  - com.fasterxml.jackson.databind.deser.exc.ExceptionPathTest::testReferenceChainForInnerClass
+  - com.fasterxml.jackson.databind.deser.exc.TestExceptionHandlingWithDefaultDeserialization::testShouldThrowJsonMappingExceptionWithPathReference
+  - com.fasterxml.jackson.databind.deser.exc.TestExceptionHandlingWithJsonCreatorDeserialization::testShouldThrowJsonMappingExceptionWithPathReference
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.filter.JsonIncludeTest::testIssue1351
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.deser.KeyDeser1429Test::testDeserializeKeyViaFactory
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.module.TestCustomEnumKeyDeserializer::testCustomEnumKeySerializerWithPolymorphic
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.module.TestCustomEnumKeyDeserializer::testCustomEnumValueAndKeyViaModifier
+NEW_CODE
+Failing tests: 2
+  - com.fasterxml.jackson.databind.struct.SingleValueAsArrayTest::testSuccessfulDeserializationOfObjectWithChainedArrayCreators
+  - com.fasterxml.jackson.databind.struct.SingleValueAsArrayTest::testWithSingleString
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.creators.Creator1476Test::testConstructorChoice
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.struct.TestUnwrapped::testCaseInsensitiveUnwrap
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.deser.TestMapDeserialization::testcharSequenceKeyMap
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.creators.InnerClassCreatorTest::testIssue1501
+NEW_CODE
+Failing tests: 2
+  - com.fasterxml.jackson.databind.deser.ReadOrWriteOnlyTest::testReadOnlyAndWriteOnly
+  - com.fasterxml.jackson.databind.deser.ReadOrWriteOnlyTest::testReadOnly935
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.jsontype.TestPolymorphicWithDefaultImpl::testWithEmptyStringAsNullObject1533
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.struct.EnumFormatShapeTest::testEnumPropertyAsNumber
+NEW_CODE
+Failing tests: 4
+  - com.fasterxml.jackson.databind.deser.builder.BuilderWithUnwrappedTest::testWithUnwrappedAndCreatorSingleParameterAtBeginning
+  - com.fasterxml.jackson.databind.deser.builder.BuilderWithUnwrappedTest::testWithUnwrappedAndCreatorMultipleParametersAtBeginning
+  - com.fasterxml.jackson.databind.deser.builder.BuilderWithUnwrappedTest::testWithUnwrappedAndCreatorSingleParameterInMiddle
+  - com.fasterxml.jackson.databind.deser.builder.BuilderWithUnwrappedTest::testWithUnwrappedAndCreatorMultipleParametersInMiddle
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest::testIssue1599
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest::testIssue1599
+NEW_CODE
+Failing tests: 2
+  - com.fasterxml.jackson.databind.deser.TestJdkTypes::testInetAddress
+  - com.fasterxml.jackson.databind.objectid.AlwaysAsReferenceFirstTest::testIssue1607
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.jsontype.TestTypeNames::testBaseTypeId1616
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.introspect.TypeCoercion1592Test::testTypeCoercion1592
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.filter.IgnorePropertyOnDeserTest::testIgnoreGetterNotSetter1595
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.filter.ProblemHandlerTest::testWeirdStringHandling
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.type.TestTypeFactoryWithRecursiveTypes::testBasePropertiesIncludedWhenSerializingSubWhenSubTypeLoadedAfterBaseType
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testFormatWithoutPattern
+NEW_CODE
+Failing tests: 2
+  - com.fasterxml.jackson.databind.type.RecursiveTypeTest::testSuperClassWithReferencedJavaType
+  - com.fasterxml.jackson.databind.type.TestTypeFactoryWithRecursiveTypes::testBasePropertiesIncludedWhenSerializingSubWhenSubTypeLoadedAfterBaseType
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.deser.TestDateDeserialization::testDateUtilISO8601NoTimezoneNonDefault
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.jsontype.GenericTypeId1735Test::testNestedTypeCheck1735
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest::testJDKTypes1737
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.creators.DelegatingArrayCreator1804Test::testDelegatingArray1804
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.deser.jdk.MapDeserializerCachingTest::testCachedSerialize
+NEW_CODE
+Failing tests: 1
+  - com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest::testJDKTypes1737
+NEW_CODE
+Failing tests: 2
+  - com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest::testJDKTypes1855
+  - com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest::testJDKTypes1872
+NEW_CODE
+Failing tests: 2
+  - com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest::testC3P0Types
+  - com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest::testJDKTypes1855
+NEW_CODE
+Failing tests: 2
+  - com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest::testJDKTypes1855
+  - com.fasterxml.jackson.databind.type.TestTypeFactory::testCanonicalNames
+NEW_CODE
+Failing tests: 2
+  - com.fasterxml.jackson.databind.deser.creators.CreatorWithNamingStrategyTest::testSnakeCaseWithOneArg
+  - com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest::testJDKTypes1855
+NEW_CODE
+Failing tests: 2
+  - com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest::testJDKTypes1855
+  - com.fasterxml.jackson.databind.node.POJONodeTest::testPOJONodeCustomSer
+NEW_CODE
+Failing tests: 2
+  - com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest::testJDKTypes1855
+  - com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeIdWithEnum1328Test::testExample
+NEW_CODE
+Failing tests: 2
+  - com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest::testJDKTypes1855
+  - com.fasterxml.jackson.databind.type.TestTypeFactory::testCanonicalNames
+NEW_CODE
+Failing tests: 2
+  - com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest::testJDKTypes1855
+  - com.fasterxml.jackson.databind.node.TestConversions::testBase64Text
+NEW_CODE
+Failing tests: 2
+  - com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest::testJDKTypes1855
+  - com.fasterxml.jackson.databind.struct.TestUnwrapped::testIssue2088UnwrappedFieldsAfterLastCreatorProp
+NEW_CODE
+Failing tests: 2
+  - com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest::testJDKTypes1855
+  - com.fasterxml.jackson.databind.ser.jdk.SqlDateSerializationTest::testSqlDateConfigOverride
+NEW_CODE
+Failing tests: 2
+  - com.fasterxml.jackson.databind.exc.BasicExceptionTest::testLocationAddition
+  - com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest::testJDKTypes1855
+NEW_CODE
+Failing tests: 3
+  - com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest::testJDKTypes1855
+  - com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest::testDateISO8601_10k
+  - com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest::testDateISO8601_BCE
+NEW_CODE
+Failing tests: 2
+  - com.fasterxml.jackson.databind.deser.jdk.JDKScalarsTest::testVoidDeser
+  - com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest::testJDKTypes1855
+NEW_CODE
+Failing tests: 3
+  - com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest::testJDKTypes1855
+  - com.fasterxml.jackson.databind.node.TestTreeTraversingParser::testNumberOverflowLong
+  - com.fasterxml.jackson.databind.node.TestTreeTraversingParser::testNumberOverflowInt
+NEW_CODE
+Failing tests: 2
+  - com.fasterxml.jackson.databind.deser.filter.ProblemHandlerUnknownTypeId2221Test::testWithDeserializationProblemHandler
+  - com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest::testJDKTypes1855
+NEW_CODE
+Failing tests: 2
+  - com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest::testJDKTypes1855
+  - com.fasterxml.jackson.databind.node.EmptyContentAsTreeTest::testNullFromEOFWithParserAndReader
+NEW_CODE
+Failing tests: 2
+  - com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest::testJDKTypes1855
+  - com.fasterxml.jackson.databind.ser.jdk.BigDecimalPlain2230Test::testBigIntegerAsPlainTest
+NEW_CODE
+Failing tests: 2
+  - com.fasterxml.jackson.databind.deser.jdk.UtilCollectionsTypesTest::testUnmodifiableListFromLinkedList
+  - com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest::testJDKTypes1855
+NEW_CODE
+Failing tests: 2
+  - com.fasterxml.jackson.databind.deser.jdk.JDKAtomicTypesDeserTest::testNullWithinNested
+  - com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest::testJDKTypes1855
+NEW_CODE
+Failing tests: 2
+  - com.fasterxml.jackson.databind.deser.creators.DelegatingArrayCreator2324Test::testDeserializeBagOfStrings
+  - com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest::testJDKTypes1855

@@ -1,0 +1,802 @@
+
+./chart/ChartFactory.java
+./chart/demo/TimeSeriesChartDemo1.java
+./chart/demo/PieChartDemo1.java
+./chart/demo/BarChartDemo1.java
+./chart/ui/Licences.java
+./chart/ui/FontDisplayField.java
+./chart/ui/PaintSample.java
+./chart/ui/Library.java
+./chart/ui/Contributor.java
+./chart/ui/FontChooserPanel.java
+./chart/ui/ExtensionFileFilter.java
+./chart/ui/BasicProjectInfo.java
+./chart/ui/LCBLayout.java
+./chart/ui/ProjectInfo.java
+./chart/ui/StrokeChooserPanel.java
+./chart/ui/StrokeSample.java
+./chart/Drawable.java
+./chart/imagemap/StandardURLTagFragmentGenerator.java
+./chart/imagemap/URLTagFragmentGenerator.java
+./chart/imagemap/ImageMapUtilities.java
+./chart/imagemap/StandardToolTipTagFragmentGenerator.java
+./chart/imagemap/ToolTipTagFragmentGenerator.java
+./chart/imagemap/DynamicDriveToolTipTagFragmentGenerator.java
+./chart/imagemap/OverLIBToolTipTagFragmentGenerator.java
+./chart/renderer/OutlierList.java
+./chart/renderer/Outlier.java
+./chart/renderer/category/BarPainter.java
+./chart/renderer/category/MinMaxCategoryRenderer.java
+./chart/renderer/category/StatisticalBarRenderer.java
+./chart/renderer/category/LevelRenderer.java
+./chart/renderer/category/LineAndShapeRenderer.java
+./chart/renderer/category/StackedBarRenderer3D.java
+./chart/renderer/category/BoxAndWhiskerRenderer.java
+./chart/renderer/category/StackedAreaRenderer.java
+./chart/renderer/category/StackedBarRenderer.java
+./chart/renderer/category/GanttRenderer.java
+./chart/renderer/category/LineRenderer3D.java
+./chart/renderer/category/DefaultCategoryItemRenderer.java
+./chart/renderer/category/WaterfallBarRenderer.java
+./chart/renderer/category/BarRenderer.java
+./chart/renderer/category/CategoryStepRenderer.java
+./chart/renderer/category/LayeredBarRenderer.java
+./chart/renderer/category/StandardBarPainter.java
+./chart/renderer/category/CategoryItemRendererState.java
+./chart/renderer/category/GroupedStackedBarRenderer.java
+./chart/renderer/category/CategoryItemRenderer.java
+./chart/renderer/category/AreaRenderer.java
+./chart/renderer/category/GradientBarPainter.java
+./chart/renderer/category/BarRenderer3D.java
+./chart/renderer/category/AbstractCategoryItemRenderer.java
+./chart/renderer/category/StatisticalLineAndShapeRenderer.java
+./chart/renderer/category/ScatterRenderer.java
+./chart/renderer/category/IntervalBarRenderer.java
+./chart/renderer/RendererUtilities.java
+./chart/renderer/GrayPaintScale.java
+./chart/renderer/PaintScale.java
+./chart/renderer/DefaultPolarItemRenderer.java
+./chart/renderer/NotOutlierException.java
+./chart/renderer/WaferMapRenderer.java
+./chart/renderer/RenderAttributes.java
+./chart/renderer/RendererState.java
+./chart/renderer/LookupPaintScale.java
+./chart/renderer/PolarItemRenderer.java
+./chart/renderer/AreaRendererEndType.java
+./chart/renderer/xy/XYBubbleRenderer.java
+./chart/renderer/xy/StackedXYAreaRenderer2.java
+./chart/renderer/xy/XYItemRenderer.java
+./chart/renderer/xy/XYShapeRenderer.java
+./chart/renderer/xy/XYSplineRenderer.java
+./chart/renderer/xy/XYItemRendererState.java
+./chart/renderer/xy/StandardXYItemRenderer.java
+./chart/renderer/xy/XYAreaRenderer.java
+./chart/renderer/xy/HighLowRenderer.java
+./chart/renderer/xy/StackedXYBarRenderer.java
+./chart/renderer/xy/SamplingXYLineRenderer.java
+./chart/renderer/xy/XYBarPainter.java
+./chart/renderer/xy/XYAreaRenderer2.java
+./chart/renderer/xy/XYErrorRenderer.java
+./chart/renderer/xy/XYBarRenderer.java
+./chart/renderer/xy/GradientXYBarPainter.java
+./chart/renderer/xy/DefaultXYItemRenderer.java
+./chart/renderer/xy/DeviationRenderer.java
+./chart/renderer/xy/XYBlockRenderer.java
+./chart/renderer/xy/AbstractXYItemRenderer.java
+./chart/renderer/xy/StackedXYAreaRenderer.java
+./chart/renderer/xy/WindItemRenderer.java
+./chart/renderer/xy/XYLine3DRenderer.java
+./chart/renderer/xy/XYStepAreaRenderer.java
+./chart/renderer/xy/CandlestickRenderer.java
+./chart/renderer/xy/YIntervalRenderer.java
+./chart/renderer/xy/XYLineAndShapeRenderer.java
+./chart/renderer/xy/XYDotRenderer.java
+./chart/renderer/xy/VectorRenderer.java
+./chart/renderer/xy/XYStepRenderer.java
+./chart/renderer/xy/CyclicXYItemRenderer.java
+./chart/renderer/xy/XYBoxAndWhiskerRenderer.java
+./chart/renderer/xy/XYDifferenceRenderer.java
+./chart/renderer/xy/ClusteredXYBarRenderer.java
+./chart/renderer/xy/StandardXYBarPainter.java
+./chart/renderer/OutlierListCollection.java
+./chart/renderer/AbstractRenderer.java
+./chart/servlet/DisplayChart.java
+./chart/servlet/ServletUtilities.java
+./chart/servlet/ChartDeleter.java
+./chart/needle/MeterNeedle.java
+./chart/needle/MiddlePinNeedle.java
+./chart/needle/WindNeedle.java
+./chart/needle/PointerNeedle.java
+./chart/needle/ShipNeedle.java
+./chart/needle/LongNeedle.java
+./chart/needle/ArrowNeedle.java
+./chart/needle/PinNeedle.java
+./chart/needle/PlumNeedle.java
+./chart/needle/LineNeedle.java
+./chart/LegendItem.java
+./chart/panel/AbstractMouseHandler.java
+./chart/panel/RegionSelectionHandler.java
+./chart/panel/ZoomHandler.java
+./chart/panel/PanHandler.java
+./chart/panel/CrosshairOverlay.java
+./chart/panel/Overlay.java
+./chart/panel/AbstractOverlay.java
+./chart/plot/CombinedRangeCategoryPlot.java
+./chart/plot/PieLabelLinkStyle.java
+./chart/plot/DrawingSupplier.java
+./chart/plot/MultiplePiePlot.java
+./chart/plot/Pannable.java
+./chart/plot/FastScatterPlot.java
+./chart/plot/CrosshairState.java
+./chart/plot/XYCrosshairState.java
+./chart/plot/PlotState.java
+./chart/plot/SeriesRenderingOrder.java
+./chart/plot/WaferMapPlot.java
+./chart/plot/Crosshair.java
+./chart/plot/DefaultDrawingSupplier.java
+./chart/plot/PlotRenderingInfo.java
+./chart/plot/PolarPlot.java
+./chart/plot/RingPlot.java
+./chart/plot/Zoomable.java
+./chart/plot/PlotUtilities.java
+./chart/plot/AbstractPieLabelDistributor.java
+./chart/plot/Selectable.java
+./chart/plot/MeterInterval.java
+./chart/plot/dial/DialLayerChangeListener.java
+./chart/plot/dial/AbstractDialLayer.java
+./chart/plot/dial/ArcDialFrame.java
+./chart/plot/dial/DialLayerChangeEvent.java
+./chart/plot/dial/StandardDialRange.java
+./chart/plot/dial/DialFrame.java
+./chart/plot/dial/DialTextAnnotation.java
+./chart/plot/dial/DialBackground.java
+./chart/plot/dial/StandardDialScale.java
+./chart/plot/dial/DialLayer.java
+./chart/plot/dial/DialScale.java
+./chart/plot/dial/DialCap.java
+./chart/plot/dial/StandardDialFrame.java
+./chart/plot/dial/DialValueIndicator.java
+./chart/plot/dial/DialPlot.java
+./chart/plot/dial/DialPointer.java
+./chart/plot/DialShape.java
+./chart/plot/MeterPlot.java
+./chart/plot/ValueMarker.java
+./chart/plot/ValueAxisPlot.java
+./chart/plot/PiePlot3D.java
+./chart/plot/DatasetRenderingOrder.java
+./chart/plot/PiePlotState.java
+./chart/plot/CategoryPlot.java
+./chart/plot/XYPlot.java
+./chart/plot/PieLabelRecord.java
+./chart/plot/IntervalMarker.java
+./chart/plot/PiePlot.java
+./chart/plot/CategoryMarker.java
+./chart/plot/ThermometerPlot.java
+./chart/plot/CategoryCrosshairState.java
+./chart/plot/CombinedRangeXYPlot.java
+./chart/plot/CombinedDomainXYPlot.java
+./chart/plot/SpiderWebPlot.java
+./chart/plot/Marker.java
+./chart/plot/PieLabelDistributor.java
+./chart/plot/Plot.java
+./chart/plot/PieSelectionAttributes.java
+./chart/plot/CombinedDomainCategoryPlot.java
+./chart/plot/CompassPlot.java
+./chart/plot/PlotOrientation.java
+./chart/util/LengthAdjustmentType.java
+./chart/util/ApplicationFrame.java
+./chart/util/RelativeDateFormat.java
+./chart/util/RectangleInsets.java
+./chart/util/GradientPaintTransformer.java
+./chart/util/UnitType.java
+./chart/util/StrokeMap.java
+./chart/util/RefineryUtilities.java
+./chart/util/StandardGradientPaintTransformer.java
+./chart/util/LineUtilities.java
+./chart/util/AbstractObjectList.java
+./chart/util/Size2D.java
+./chart/util/PaintMap.java
+./chart/util/AttributedStringUtilities.java
+./chart/util/Rotation.java
+./chart/util/PublicCloneable.java
+./chart/util/TableOrder.java
+./chart/util/LogFormat.java
+./chart/util/StringUtilities.java
+./chart/util/NumberCellRenderer.java
+./chart/util/SerialUtilities.java
+./chart/util/XYCoordinateType.java
+./chart/util/ShadowGenerator.java
+./chart/util/Align.java
+./chart/util/SortOrder.java
+./chart/util/PaintUtilities.java
+./chart/util/BooleanList.java
+./chart/util/RectangleEdge.java
+./chart/util/RectangleAnchor.java
+./chart/util/StrokeList.java
+./chart/util/HorizontalAlignment.java
+./chart/util/DefaultShadowGenerator.java
+./chart/util/ResourceBundleWrapper.java
+./chart/util/ObjectUtilities.java
+./chart/util/ObjectList.java
+./chart/util/HexNumberFormat.java
+./chart/util/PaintList.java
+./chart/util/VerticalAlignment.java
+./chart/util/GradientPaintTransformType.java
+./chart/util/ShapeList.java
+./chart/util/ArrayUtilities.java
+./chart/util/ShapeUtilities.java
+./chart/util/Layer.java
+./chart/util/HashUtilities.java
+./chart/ChartUtilities.java
+./chart/title/LegendGraphic.java
+./chart/title/LegendTitle.java
+./chart/title/Title.java
+./chart/title/ShortTextTitle.java
+./chart/title/ImageTitle.java
+./chart/title/LegendItemBlockContainer.java
+./chart/title/DateTitle.java
+./chart/title/TextTitle.java
+./chart/title/PaintScaleLegend.java
+./chart/title/CompositeTitle.java
+./chart/LegendItemCollection.java
+./chart/JFreeChart.java
+./chart/entity/CategoryLabelEntity.java
+./chart/entity/TitleEntity.java
+./chart/entity/PlotEntity.java
+./chart/entity/AxisEntity.java
+./chart/entity/TickLabelEntity.java
+./chart/entity/CategoryItemEntity.java
+./chart/entity/EntityCollection.java
+./chart/entity/JFreeChartEntity.java
+./chart/entity/AxisLabelEntity.java
+./chart/entity/LegendItemEntity.java
+./chart/entity/PieSectionEntity.java
+./chart/entity/StandardEntityCollection.java
+./chart/entity/ChartEntity.java
+./chart/entity/XYItemEntity.java
+./chart/entity/XYAnnotationEntity.java
+./chart/resources/JFreeChartResources.java
+./chart/ChartMouseListener.java
+./chart/PolarChartPanel.java
+./chart/labels/IntervalXYItemLabelGenerator.java
+./chart/labels/XYItemLabelGenerator.java
+./chart/labels/StandardPieToolTipGenerator.java
+./chart/labels/BoxAndWhiskerXYToolTipGenerator.java
+./chart/labels/AbstractCategoryItemLabelGenerator.java
+./chart/labels/XYToolTipGenerator.java
+./chart/labels/MultipleXYSeriesLabelGenerator.java
+./chart/labels/CustomXYToolTipGenerator.java
+./chart/labels/XYZToolTipGenerator.java
+./chart/labels/BoxAndWhiskerToolTipGenerator.java
+./chart/labels/AbstractXYItemLabelGenerator.java
+./chart/labels/ItemLabelAnchor.java
+./chart/labels/IntervalCategoryItemLabelGenerator.java
+./chart/labels/XYSeriesLabelGenerator.java
+./chart/labels/SymbolicXYItemLabelGenerator.java
+./chart/labels/BubbleXYItemLabelGenerator.java
+./chart/labels/StandardCategorySeriesLabelGenerator.java
+./chart/labels/PieToolTipGenerator.java
+./chart/labels/StandardCrosshairLabelGenerator.java
+./chart/labels/StandardXYItemLabelGenerator.java
+./chart/labels/StandardCategoryToolTipGenerator.java
+./chart/labels/StandardXYZToolTipGenerator.java
+./chart/labels/StandardPieSectionLabelGenerator.java
+./chart/labels/StandardCategoryItemLabelGenerator.java
+./chart/labels/PieSectionLabelGenerator.java
+./chart/labels/CrosshairLabelGenerator.java
+./chart/labels/StandardXYToolTipGenerator.java
+./chart/labels/ItemLabelPosition.java
+./chart/labels/IntervalCategoryToolTipGenerator.java
+./chart/labels/CategoryToolTipGenerator.java
+./chart/labels/AbstractPieItemLabelGenerator.java
+./chart/labels/StandardXYSeriesLabelGenerator.java
+./chart/labels/CategorySeriesLabelGenerator.java
+./chart/labels/HighLowItemLabelGenerator.java
+./chart/labels/CategoryItemLabelGenerator.java
+./chart/LegendRenderingOrder.java
+./chart/ChartFrame.java
+./chart/annotations/XYImageAnnotation.java
+./chart/annotations/TextAnnotation.java
+./chart/annotations/XYTextAnnotation.java
+./chart/annotations/AbstractAnnotation.java
+./chart/annotations/XYDrawableAnnotation.java
+./chart/annotations/XYTitleAnnotation.java
+./chart/annotations/CategoryLineAnnotation.java
+./chart/annotations/XYDataImageAnnotation.java
+./chart/annotations/XYAnnotation.java
+./chart/annotations/XYPolygonAnnotation.java
+./chart/annotations/XYLineAnnotation.java
+./chart/annotations/CategoryPointerAnnotation.java
+./chart/annotations/XYShapeAnnotation.java
+./chart/annotations/XYPointerAnnotation.java
+./chart/annotations/CategoryTextAnnotation.java
+./chart/annotations/AbstractXYAnnotation.java
+./chart/annotations/XYBoxAnnotation.java
+./chart/annotations/Annotation.java
+./chart/annotations/CategoryAnnotation.java
+./chart/annotations/XYAnnotationBoundsInfo.java
+./chart/Effect3D.java
+./chart/StandardChartTheme.java
+./chart/ChartPanel.java
+./chart/urls/StandardXYZURLGenerator.java
+./chart/urls/CustomXYURLGenerator.java
+./chart/urls/CustomCategoryURLGenerator.java
+./chart/urls/CategoryURLGenerator.java
+./chart/urls/CustomPieURLGenerator.java
+./chart/urls/XYZURLGenerator.java
+./chart/urls/TimeSeriesURLGenerator.java
+./chart/urls/PieURLGenerator.java
+./chart/urls/XYURLGenerator.java
+./chart/urls/StandardCategoryURLGenerator.java
+./chart/urls/StandardPieURLGenerator.java
+./chart/urls/StandardXYURLGenerator.java
+./chart/encoders/SunJPEGEncoderAdapter.java
+./chart/encoders/SunPNGEncoderAdapter.java
+./chart/encoders/ImageEncoderFactory.java
+./chart/encoders/EncoderUtil.java
+./chart/encoders/ImageFormat.java
+./chart/encoders/ImageEncoder.java
+./chart/axis/SubCategoryAxis.java
+./chart/axis/DateTickUnitType.java
+./chart/axis/ModuloAxis.java
+./chart/axis/AxisLocation.java
+./chart/axis/SegmentedTimeline.java
+./chart/axis/LogarithmicAxis.java
+./chart/axis/CategoryAxis.java
+./chart/axis/CategoryAxis3D.java
+./chart/axis/CategoryTick.java
+./chart/axis/NumberTickUnit.java
+./chart/axis/DateTickMarkPosition.java
+./chart/axis/TickUnits.java
+./chart/axis/PeriodAxis.java
+./chart/axis/Tick.java
+./chart/axis/Axis.java
+./chart/axis/AxisCollection.java
+./chart/axis/Timeline.java
+./chart/axis/ExtendedCategoryAxis.java
+./chart/axis/NumberTick.java
+./chart/axis/NumberAxis.java
+./chart/axis/DateTickUnit.java
+./chart/axis/MarkerAxisBand.java
+./chart/axis/QuarterDateFormat.java
+./chart/axis/TickUnitSource.java
+./chart/axis/MonthDateFormat.java
+./chart/axis/TickType.java
+./chart/axis/PeriodAxisLabelInfo.java
+./chart/axis/TickUnit.java
+./chart/axis/StandardTickUnitSource.java
+./chart/axis/CyclicNumberAxis.java
+./chart/axis/AxisSpace.java
+./chart/axis/CategoryLabelPosition.java
+./chart/axis/SymbolAxis.java
+./chart/axis/CategoryLabelWidthType.java
+./chart/axis/LogAxis.java
+./chart/axis/CompassFormat.java
+./chart/axis/DateTick.java
+./chart/axis/DateAxis.java
+./chart/axis/CategoryAnchor.java
+./chart/axis/CategoryLabelPositions.java
+./chart/axis/ValueTick.java
+./chart/axis/ValueAxis.java
+./chart/axis/AxisState.java
+./chart/axis/NumberAxis3D.java
+./chart/ChartRenderingInfo.java
+./chart/ChartTransferable.java
+./chart/ChartColor.java
+./chart/MouseWheelHandler.java
+./chart/text/TextBox.java
+./chart/text/TextAnchor.java
+./chart/text/TextLine.java
+./chart/text/TextMeasurer.java
+./chart/text/TextBlockAnchor.java
+./chart/text/TextBlock.java
+./chart/text/G2TextMeasurer.java
+./chart/text/TextUtilities.java
+./chart/text/TextFragment.java
+./chart/BufferedImageRenderingSource.java
+./chart/LegendItemSource.java
+./chart/ChartMouseEvent.java
+./chart/event/ChartChangeEventType.java
+./chart/event/AxisChangeEvent.java
+./chart/event/ChartChangeListener.java
+./chart/event/ChartChangeEvent.java
+./chart/event/PlotChangeEvent.java
+./chart/event/TitleChangeListener.java
+./chart/event/AxisChangeListener.java
+./chart/event/ChartProgressListener.java
+./chart/event/ChartProgressEvent.java
+./chart/event/OverlayChangeListener.java
+./chart/event/MarkerChangeListener.java
+./chart/event/TitleChangeEvent.java
+./chart/event/AnnotationChangeListener.java
+./chart/event/RendererChangeEvent.java
+./chart/event/AnnotationChangeEvent.java
+./chart/event/OverlayChangeEvent.java
+./chart/event/PlotChangeListener.java
+./chart/event/MarkerChangeEvent.java
+./chart/event/RendererChangeListener.java
+./chart/event/DatasetChangeInfo.java
+./chart/ChartTheme.java
+./chart/editor/DefaultChartEditorFactory.java
+./chart/editor/DefaultTitleEditor.java
+./chart/editor/ChartEditorManager.java
+./chart/editor/ChartEditorFactory.java
+./chart/editor/ChartEditor.java
+./chart/editor/DefaultPlotEditor.java
+./chart/editor/DefaultNumberAxisEditor.java
+./chart/editor/DefaultChartEditor.java
+./chart/editor/DefaultAxisEditor.java
+./chart/RenderingSource.java
+./chart/block/AbstractBlock.java
+./chart/block/EntityBlockParams.java
+./chart/block/BlockResult.java
+./chart/block/LabelBlock.java
+./chart/block/BlockParams.java
+./chart/block/EntityBlockResult.java
+./chart/block/LengthConstraintType.java
+./chart/block/FlowArrangement.java
+./chart/block/BorderArrangement.java
+./chart/block/GridArrangement.java
+./chart/block/ColumnArrangement.java
+./chart/block/LineBorder.java
+./chart/block/ColorBlock.java
+./chart/block/BlockContainer.java
+./chart/block/BlockFrame.java
+./chart/block/CenterArrangement.java
+./chart/block/RectangleConstraint.java
+./chart/block/EmptyBlock.java
+./chart/block/Arrangement.java
+./chart/block/BlockBorder.java
+./chart/block/Block.java
+./data/statistics/BoxAndWhiskerXYDataset.java
+./data/statistics/DefaultBoxAndWhiskerCategoryDataset.java
+./data/statistics/SimpleHistogramDataset.java
+./data/statistics/SimpleHistogramBin.java
+./data/statistics/HistogramDataset.java
+./data/statistics/BoxAndWhiskerItem.java
+./data/statistics/Statistics.java
+./data/statistics/MultiValueCategoryDataset.java
+./data/statistics/MeanAndStandardDeviation.java
+./data/statistics/BoxAndWhiskerCalculator.java
+./data/statistics/BoxAndWhiskerCategoryDataset.java
+./data/statistics/DefaultBoxAndWhiskerXYDataset.java
+./data/statistics/HistogramBin.java
+./data/statistics/HistogramType.java
+./data/statistics/Regression.java
+./data/statistics/DefaultMultiValueCategoryDataset.java
+./data/statistics/StatisticalCategoryDataset.java
+./data/statistics/DefaultStatisticalCategoryDataset.java
+./data/RangeInfo.java
+./data/KeyedValues.java
+./data/Values.java
+./data/category/DefaultCategoryDataset.java
+./data/category/DefaultIntervalCategoryDataset.java
+./data/category/CategoryDatasetSelectionState.java
+./data/category/CategoryDataset.java
+./data/category/SelectableCategoryDataset.java
+./data/category/AbstractCategoryDataset.java
+./data/category/IntervalCategoryDataset.java
+./data/category/CategoryToPieDataset.java
+./data/category/CategoryRangeInfo.java
+./data/category/SlidingCategoryDataset.java
+./data/KeyedObjectComparator.java
+./data/SelectableValue.java
+./data/general/Dataset.java
+./data/general/SeriesChangeInfo.java
+./data/general/KeyedValuesDataset.java
+./data/general/DefaultHeatMapDataset.java
+./data/general/DefaultValueDataset.java
+./data/general/AbstractDataset.java
+./data/general/SeriesDataset.java
+./data/general/Series.java
+./data/general/DefaultKeyedValueDataset.java
+./data/general/SeriesChangeType.java
+./data/general/DefaultKeyedValuesDataset.java
+./data/general/DatasetSelectionState.java
+./data/general/DatasetAndSelection.java
+./data/general/KeyedValues2DDataset.java
+./data/general/DatasetUtilities.java
+./data/general/HeatMapUtilities.java
+./data/general/DefaultKeyedValues2DDataset.java
+./data/general/WaferMapDataset.java
+./data/general/HeatMapDataset.java
+./data/general/AbstractSeriesDataset.java
+./data/general/KeyedValueDataset.java
+./data/general/SeriesException.java
+./data/general/ValueDataset.java
+./data/general/DatasetGroup.java
+./data/resources/DataPackageResources_fr.java
+./data/resources/DataPackageResources_es.java
+./data/resources/DataPackageResources.java
+./data/resources/DataPackageResources_ru.java
+./data/resources/DataPackageResources_pl.java
+./data/resources/DataPackageResources_de.java
+./data/KeyToGroupMap.java
+./data/DataUtilities.java
+./data/io/CSV.java
+./data/KeyedObjects2D.java
+./data/Values2D.java
+./data/RangeType.java
+./data/DefaultKeyedValues2D.java
+./data/function/NormalDistributionFunction2D.java
+./data/function/Function2D.java
+./data/function/PowerFunction2D.java
+./data/function/LineFunction2D.java
+./data/function/PolynomialFunction2D.java
+./data/KeyedObject.java
+./data/xml/PieDatasetHandler.java
+./data/xml/ItemHandler.java
+./data/xml/DatasetReader.java
+./data/xml/CategorySeriesHandler.java
+./data/xml/KeyHandler.java
+./data/xml/CategoryDatasetHandler.java
+./data/xml/DatasetTags.java
+./data/xml/RootHandler.java
+./data/xml/ValueHandler.java
+./data/time/Millisecond.java
+./data/time/TimePeriodAnchor.java
+./data/time/TimeTableXYDataset.java
+./data/time/DateRange.java
+./data/time/Week.java
+./data/time/Minute.java
+./data/time/TimeSeriesTableModel.java
+./data/time/TimePeriodFormatException.java
+./data/time/FixedMillisecond.java
+./data/time/ohlc/OHLCItem.java
+./data/time/ohlc/OHLC.java
+./data/time/ohlc/OHLCSeries.java
+./data/time/ohlc/OHLCSeriesCollection.java
+./data/time/Day.java
+./data/time/SpreadsheetDate.java
+./data/time/TimeSeriesCollection.java
+./data/time/TimePeriod.java
+./data/time/MovingAverage.java
+./data/time/TimePeriodValuesCollection.java
+./data/time/Year.java
+./data/time/TimeSeriesDataItem.java
+./data/time/DynamicTimeSeriesCollection.java
+./data/time/Quarter.java
+./data/time/SimpleTimePeriod.java
+./data/time/MonthConstants.java
+./data/time/Hour.java
+./data/time/SerialDate.java
+./data/time/TimeSeries.java
+./data/time/TimePeriodValue.java
+./data/time/Second.java
+./data/time/Month.java
+./data/time/TimePeriodValues.java
+./data/time/RegularTimePeriod.java
+./data/jdbc/JDBCXYDataset.java
+./data/jdbc/JDBCCategoryDataset.java
+./data/jdbc/JDBCPieDataset.java
+./data/pie/SelectablePieDataset.java
+./data/pie/AbstractPieDataset.java
+./data/pie/PieDatasetChangeInfo.java
+./data/pie/PieDatasetChangeType.java
+./data/pie/PieDatasetSelectionState.java
+./data/pie/PieDataset.java
+./data/pie/DefaultPieDataset.java
+./data/gantt/TaskSeries.java
+./data/gantt/SlidingGanttCategoryDataset.java
+./data/gantt/TaskSeriesCollection.java
+./data/gantt/Task.java
+./data/gantt/GanttCategoryDataset.java
+./data/gantt/XYTaskDataset.java
+./data/KeyedObjects.java
+./data/DefaultKeyedValue.java
+./data/KeyedValue.java
+./data/Range.java
+./data/DefaultKeyedValues.java
+./data/KeyedValues2D.java
+./data/DomainOrder.java
+./data/Value.java
+./data/DomainInfo.java
+./data/KeyedObjectComparatorType.java
+./data/KeyedValueComparatorType.java
+./data/ComparableObjectSeries.java
+./data/KeyedValueComparator.java
+./data/ComparableObjectItem.java
+./data/event/DatasetChangeListener.java
+./data/event/DatasetChangeEvent.java
+./data/event/SeriesChangeEvent.java
+./data/event/SeriesChangeListener.java
+./data/UnknownKeyException.java
+./data/xy/XYIntervalDataItem.java
+./data/xy/IntervalXYDelegate.java
+./data/xy/XIntervalSeries.java
+./data/xy/SelectableXYDataset.java
+./data/xy/Vector.java
+./data/xy/XYInterval.java
+./data/xy/YisSymbolic.java
+./data/xy/VectorXYDataset.java
+./data/xy/XisSymbolic.java
+./data/xy/AbstractIntervalXYDataset.java
+./data/xy/WindDataset.java
+./data/xy/DefaultIntervalXYDataset.java
+./data/xy/VectorSeries.java
+./data/xy/MatrixSeriesCollection.java
+./data/xy/TableXYDataset.java
+./data/xy/YIntervalSeriesCollection.java
+./data/xy/XYIntervalSeries.java
+./data/xy/AbstractXYZDataset.java
+./data/xy/IntervalXYZDataset.java
+./data/xy/XYSeriesCollection.java
+./data/xy/DefaultXYDataset.java
+./data/xy/OHLCDataset.java
+./data/xy/XYDataset.java
+./data/xy/XYSeries.java
+./data/xy/XIntervalDataItem.java
+./data/xy/OHLCDataItem.java
+./data/xy/DefaultWindDataset.java
+./data/xy/XYDataItem.java
+./data/xy/XIntervalSeriesCollection.java
+./data/xy/CategoryTableXYDataset.java
+./data/xy/XYBarDataset.java
+./data/xy/XYDatasetSelectionState.java
+./data/xy/XYDomainInfo.java
+./data/xy/XYRangeInfo.java
+./data/xy/IntervalXYDataset.java
+./data/xy/XYDatasetTableModel.java
+./data/xy/DefaultOHLCDataset.java
+./data/xy/XYCoordinate.java
+./data/xy/YIntervalDataItem.java
+./data/xy/VectorSeriesCollection.java
+./data/xy/DefaultXYZDataset.java
+./data/xy/VectorDataItem.java
+./data/xy/NormalizedMatrixSeries.java
+./data/xy/MatrixSeries.java
+./data/xy/YInterval.java
+./data/xy/YIntervalSeries.java
+./data/xy/DefaultHighLowDataset.java
+./data/xy/DefaultTableXYDataset.java
+./data/xy/XYIntervalSeriesCollection.java
+./data/xy/AbstractXYDataset.java
+./data/xy/XYZDataset.java
+./data/xy/YWithXInterval.java
+
+done
+
+NEW_CODE
+Failing tests: 1
+  - org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests::test2947660
+NEW_CODE
+Failing tests: 2
+  - org.jfree.data.general.junit.DatasetUtilitiesTests::testBug2849731_2
+  - org.jfree.data.general.junit.DatasetUtilitiesTests::testBug2849731_3
+NEW_CODE
+Failing tests: 1
+  - org.jfree.data.time.junit.TimeSeriesTests::testCreateCopy3
+NEW_CODE
+Failing tests: 22
+  - org.jfree.chart.axis.junit.LogAxisTests::testXYAutoRange1
+  - org.jfree.chart.axis.junit.LogAxisTests::testXYAutoRange2
+  - org.jfree.chart.axis.junit.NumberAxisTests::testXYAutoRange1
+  - org.jfree.chart.axis.junit.NumberAxisTests::testXYAutoRange2
+  - org.jfree.chart.axis.junit.ValueAxisTests::testAxisMargins
+  - org.jfree.chart.junit.JFreeChartTests::testSerialization4
+  - org.jfree.chart.junit.ScatterPlotTests::testDrawWithNullInfo
+  - org.jfree.chart.junit.ScatterPlotTests::testSetSeriesToolTipGenerator
+  - org.jfree.chart.junit.ScatterPlotTests::testReplaceDataset
+  - org.jfree.chart.junit.TimeSeriesChartTests::testDrawWithNullInfo
+  - org.jfree.chart.junit.TimeSeriesChartTests::testSetSeriesToolTipGenerator
+  - org.jfree.chart.junit.TimeSeriesChartTests::testReplaceDataset
+  - org.jfree.chart.junit.XYAreaChartTests::testDrawWithNullInfo
+  - org.jfree.chart.junit.XYAreaChartTests::testSetSeriesToolTipGenerator
+  - org.jfree.chart.junit.XYAreaChartTests::testReplaceDataset
+  - org.jfree.chart.junit.XYStepAreaChartTests::testDrawWithNullInfo
+  - org.jfree.chart.junit.XYStepAreaChartTests::testSetSeriesToolTipGenerator
+  - org.jfree.chart.junit.XYStepAreaChartTests::testReplaceDataset
+  - org.jfree.chart.junit.XYStepChartTests::testDrawWithNullInfo
+  - org.jfree.chart.junit.XYStepChartTests::testSetSeriesToolTipGenerator
+  - org.jfree.chart.junit.XYStepChartTests::testReplaceDataset
+  - org.jfree.chart.plot.junit.XYPlotTests::testDrawRangeGridlines
+NEW_CODE
+Failing tests: 1
+  - org.jfree.data.xy.junit.XYSeriesTests::testBug1955483
+NEW_CODE
+Failing tests: 2
+  - org.jfree.chart.util.junit.ShapeListTests::testSerialization
+  - org.jfree.chart.util.junit.ShapeListTests::testEquals
+NEW_CODE
+Failing tests: 1
+  - org.jfree.data.time.junit.TimePeriodValuesTests::testGetMaxMiddleIndex
+NEW_CODE
+Failing tests: 1
+  - org.jfree.data.time.junit.WeekTests::testConstructor
+NEW_CODE
+Failing tests: 1
+  - org.jfree.data.time.junit.TimeSeriesTests::testBug1864222
+NEW_CODE
+Failing tests: 1
+  - org.jfree.chart.imagemap.junit.StandardToolTipTagFragmentGeneratorTests::testGenerateURLFragment
+NEW_CODE
+Failing tests: 1
+  - org.jfree.chart.util.junit.ShapeUtilitiesTests::testEqualGeneralPaths
+NEW_CODE
+Failing tests: 1
+  - org.jfree.chart.plot.junit.MultiplePiePlotTests::testConstructor
+NEW_CODE
+Failing tests: 1
+  - org.jfree.chart.block.junit.BorderArrangementTests::testSizingWithWidthConstraint
+NEW_CODE
+Failing tests: 4
+  - org.jfree.chart.plot.junit.CategoryPlotTests::testRemoveRangeMarker
+  - org.jfree.chart.plot.junit.CategoryPlotTests::testRemoveDomainMarker
+  - org.jfree.chart.plot.junit.XYPlotTests::testRemoveRangeMarker
+  - org.jfree.chart.plot.junit.XYPlotTests::testRemoveDomainMarker
+NEW_CODE
+Failing tests: 1
+  - org.jfree.chart.plot.junit.PiePlot3DTests::testDrawWithNullDataset
+NEW_CODE
+Failing tests: 8
+  - org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetCategoryIndex
+  - org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testSetCategoryKeys
+  - org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetSeriesIndex
+  - org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetRowCount
+  - org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetRowIndex
+  - org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetColumnCount
+  - org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetColumnIndex
+  - org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testCloning2
+NEW_CODE
+Failing tests: 1
+  - org.jfree.data.time.junit.TimeSeriesTests::testBug1832432
+NEW_CODE
+Failing tests: 4
+  - org.jfree.data.category.junit.DefaultCategoryDatasetTests::testBug1835955
+  - org.jfree.data.junit.DefaultKeyedValues2DTests::testRemoveColumnByKey
+  - org.jfree.data.junit.DefaultKeyedValuesTests::testRemoveValue
+  - org.jfree.data.junit.DefaultKeyedValuesTests::testGetIndex2
+NEW_CODE
+Failing tests: 2
+  - org.jfree.chart.plot.junit.CategoryPlotTests::testGetRangeAxisIndex
+  - org.jfree.chart.plot.junit.CategoryPlotTests::testGetDomainAxisIndex
+NEW_CODE
+Failing tests: 1
+  - org.jfree.chart.plot.junit.ValueMarkerTests::test1808376
+NEW_CODE
+Failing tests: 1
+  - org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests::testGetRangeBounds
+NEW_CODE
+Failing tests: 6
+  - org.jfree.data.junit.KeyedObjects2DTests::testRemoveColumnByKey
+  - org.jfree.data.junit.KeyedObjects2DTests::testRemoveValue
+  - org.jfree.data.junit.KeyedObjects2DTests::testGetValueByKey
+  - org.jfree.data.junit.KeyedObjects2DTests::testRemoveColumnByIndex
+  - org.jfree.data.junit.KeyedObjects2DTests::testSetObject
+  - org.jfree.data.junit.KeyedObjects2DTests::testRemoveRowByKey
+NEW_CODE
+Failing tests: 1
+  - org.jfree.chart.renderer.category.junit.MinMaxCategoryRendererTests::testEquals
+NEW_CODE
+Failing tests: 1
+  - org.jfree.chart.renderer.junit.GrayPaintScaleTests::testGetPaint
+NEW_CODE
+Failing tests: 4
+  - org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests::testDrawWithNullMeanVertical
+  - org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests::testDrawWithNullDeviationVertical
+  - org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests::testDrawWithNullMeanHorizontal
+  - org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests::testDrawWithNullDeviationHorizontal
+NEW_CODE
+Failing tests: 22
+  - org.jfree.chart.junit.AreaChartTests::testDrawWithNullInfo
+  - org.jfree.chart.junit.BarChart3DTests::testDrawWithNullInfo
+  - org.jfree.chart.junit.BarChartTests::testDrawWithNullInfo
+  - org.jfree.chart.junit.GanttChartTests::testDrawWithNullInfo
+  - org.jfree.chart.junit.GanttChartTests::testDrawWithNullInfo2
+  - org.jfree.chart.junit.LineChart3DTests::testDrawWithNullInfo
+  - org.jfree.chart.junit.LineChartTests::testDrawWithNullInfo
+  - org.jfree.chart.junit.StackedAreaChartTests::testDrawWithNullInfo
+  - org.jfree.chart.junit.StackedBarChart3DTests::testDrawWithNullInfo
+  - org.jfree.chart.junit.StackedBarChartTests::testDrawWithNullInfo
+  - org.jfree.chart.junit.WaterfallChartTests::testDrawWithNullInfo
+  - org.jfree.chart.plot.junit.CategoryPlotTests::test1654215
+  - org.jfree.chart.plot.junit.CategoryPlotTests::testSerialization3
+  - org.jfree.chart.plot.junit.CategoryPlotTests::testSerialization4
+  - org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests::testDrawWithNullInfo
+  - org.jfree.chart.renderer.category.junit.GroupedStackedBarRendererTests::testDrawWithNullInfo
+  - org.jfree.chart.renderer.category.junit.IntervalBarRendererTests::testDrawWithNullInfo
+  - org.jfree.chart.renderer.category.junit.LayeredBarRendererTests::testDrawWithNullInfo
+  - org.jfree.chart.renderer.category.junit.LevelRendererTests::testDrawWithNullInfo
+  - org.jfree.chart.renderer.category.junit.MinMaxCategoryRendererTests::testDrawWithNullInfo
+  - org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests::testDrawWithNullInfo
+  - org.jfree.chart.renderer.category.junit.StatisticalLineAndShapeRendererTests::testDrawWithNullInfo

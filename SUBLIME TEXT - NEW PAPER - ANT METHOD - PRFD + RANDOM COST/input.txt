@@ -1,0 +1,185 @@
+./test/org/apache/commons/cli/ArgumentIsOptionTest.java
+./test/org/apache/commons/cli/PatternOptionBuilderTest.java
+./test/org/apache/commons/cli/ValueTest.java
+./test/org/apache/commons/cli/HelpFormatterExamples.java
+./test/org/apache/commons/cli/ParseTest.java
+./test/org/apache/commons/cli/OptionGroupTest.java
+./test/org/apache/commons/cli/bug/BugCLI18Test.java
+./test/org/apache/commons/cli/bug/BugCLI13Test.java
+./test/org/apache/commons/cli/ValuesTest.java
+./test/org/apache/commons/cli/GnuParseTest.java
+./test/org/apache/commons/cli/OptionBuilderTest.java
+./test/org/apache/commons/cli/ApplicationTest.java
+./test/org/apache/commons/cli/BugsTest.java
+./test/org/apache/commons/cli/TestHelpFormatter.java
+./test/org/apache/commons/cli/BuildTest.java
+./test/org/apache/commons/cli/OptionsTest.java
+./test/org/apache/commons/cli/LongOptionWithShort.java
+./test/org/apache/commons/cli/ParseRequiredTest.java
+./java/org/apache/commons/cli/OptionValidator.java
+./java/org/apache/commons/cli/AlreadySelectedException.java
+./java/org/apache/commons/cli/Parser.java
+./java/org/apache/commons/cli/Util.java
+./java/org/apache/commons/cli/BasicParser.java
+./java/org/apache/commons/cli/TypeHandler.java
+./java/org/apache/commons/cli/MissingOptionException.java
+./java/org/apache/commons/cli/OptionBuilder.java
+./java/org/apache/commons/cli/Option.java
+./java/org/apache/commons/cli/HelpFormatter.java
+./java/org/apache/commons/cli/CommandLine.java
+./java/org/apache/commons/cli/PatternOptionBuilder.java
+./java/org/apache/commons/cli/ParseException.java
+./java/org/apache/commons/cli/OptionGroup.java
+./java/org/apache/commons/cli/PosixParser.java
+./java/org/apache/commons/cli/CommandLineParser.java
+./java/org/apache/commons/cli/Options.java
+./java/org/apache/commons/cli/UnrecognizedOptionException.java
+./java/org/apache/commons/cli/GnuParser.java
+./java/org/apache/commons/cli/MissingArgumentException.java
+
+done
+
+NEW_CODE
+Failing tests: 1
+  - org.apache.commons.cli.bug.BugCLI13Test::testCLI13
+NEW_CODE
+Failing tests: 1
+  - org.apache.commons.cli.bug.BugCLI51Test::test
+NEW_CODE
+Failing tests: 1
+  - org.apache.commons.cli.PatternOptionBuilderTest::testSimplePattern
+NEW_CODE
+Failing tests: 2
+  - org.apache.commons.cli.OptionsTest::testMissingOptionsException
+  - org.apache.commons.cli.OptionsTest::testMissingOptionException
+NEW_CODE
+Failing tests: 2
+  - org.apache.commons.cli.UtilTest::testStripLeadingHyphens
+  - org.apache.commons.cli.bug.BugCLI133Test::testOrder
+NEW_CODE
+Failing tests: 1
+  - org.apache.commons.cli2.bug.Bug27575Test::testRequiredOptions
+NEW_CODE
+Failing tests: 1
+  - org.apache.commons.cli.HelpFormatterTest::testPrintWrapped
+NEW_CODE
+Failing tests: 2
+  - org.apache.commons.cli.OptionsTest::testMissingOptionsException
+  - org.apache.commons.cli.ParseRequiredTest::testMissingRequiredOptions
+NEW_CODE
+Failing tests: 1
+  - org.apache.commons.cli.ParseRequiredTest::testReuseOptionsTwice
+NEW_CODE
+Failing tests: 1
+  - org.apache.commons.cli.HelpFormatterTest::testPrintOptionWithEmptyArgNameUsage
+NEW_CODE
+Failing tests: 3
+  - org.apache.commons.cli.GnuParserTest::testShortWithEqual
+  - org.apache.commons.cli.GnuParserTest::testLongWithEqualSingleDash
+  - org.apache.commons.cli.GnuParserTest::testLongWithEqual
+NEW_CODE
+Failing tests: 1
+  - org.apache.commons.cli2.bug.BugLoopingOptionLookAlikeTest::testLoopingOptionLookAlike2
+NEW_CODE
+Failing tests: 1
+  - org.apache.commons.cli2.bug.BugCLI144Test::testFileValidator
+NEW_CODE
+Failing tests: 2
+  - org.apache.commons.cli2.bug.BugCLI158Test::testSingleOptionSingleArgument
+  - org.apache.commons.cli2.bug.BugCLI158Test::testSingleOptionMaximumNumberOfArgument
+NEW_CODE
+Failing tests: 7
+  - org.apache.commons.cli2.bug.BugCLI123Test::testMultipleChildOptions
+  - org.apache.commons.cli2.bug.BugCLI123Test::testParentOptionAndChildOption
+  - org.apache.commons.cli2.bug.BugCLI123Test::testSingleChildOption
+  - org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testGetOptions_Order
+  - org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testGetOptions_Order
+  - org.apache.commons.cli2.commandline.PropertiesCommandLineTest::testGetOptions_Order
+  - org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetOptions_Order
+NEW_CODE
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testStopBursting
+NEW_CODE
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testStop2
+NEW_CODE
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testUnrecognizedOption2
+NEW_CODE
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testStop3
+NEW_CODE
+Failing tests: 1
+  - org.apache.commons.cli2.bug.BugCLI150Test::testNegativeNumber
+NEW_CODE
+Failing tests: 2
+  - org.apache.commons.cli.ApplicationTest::testGroovy
+  - org.apache.commons.cli.PosixParserTest::testStopAtExpectedArg
+NEW_CODE
+Failing tests: 2
+  - org.apache.commons.cli.bug.BugCLI162Test::testInfiniteLoop
+  - org.apache.commons.cli.bug.BugCLI162Test::testPrintHelpLongLines
+NEW_CODE
+Failing tests: 1
+  - org.apache.commons.cli.bug.BugCLI162Test::testLongLineChunkingIndentIgnored
+NEW_CODE
+Failing tests: 1
+  - org.apache.commons.cli.bug.BugCLI162Test::testLongLineChunkingIndentIgnored
+NEW_CODE
+Failing tests: 1
+  - org.apache.commons.cli.OptionBuilderTest::testBuilderIsResettedAlways
+NEW_CODE
+Failing tests: 3
+  - org.apache.commons.cli.BasicParserTest::testOptionGroupLong
+  - org.apache.commons.cli.GnuParserTest::testOptionGroupLong
+  - org.apache.commons.cli.PosixParserTest::testOptionGroupLong
+NEW_CODE
+Failing tests: 1
+  - org.apache.commons.cli.ValueTest::testPropertyOptionFlags
+NEW_CODE
+Failing tests: 1
+  - org.apache.commons.cli.UtilTest::testStripLeadingAndTrailingQuotes
+NEW_CODE
+Failing tests: 9
+  - org.apache.commons.cli.BasicParserTest::testPropertyOptionGroup
+  - org.apache.commons.cli.BasicParserTest::testPropertyOptionUnexpected
+  - org.apache.commons.cli.DefaultParserTest::testPropertyOptionGroup
+  - org.apache.commons.cli.DefaultParserTest::testPropertyOptionUnexpected
+  - org.apache.commons.cli.GnuParserTest::testPropertyOptionGroup
+  - org.apache.commons.cli.GnuParserTest::testPropertyOptionUnexpected
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromGroupWithProperties
+  - org.apache.commons.cli.PosixParserTest::testPropertyOptionGroup
+  - org.apache.commons.cli.PosixParserTest::testPropertyOptionUnexpected
+NEW_CODE
+Failing tests: 1
+  - org.apache.commons.cli.HelpFormatterTest::testDefaultArgName
+NEW_CODE
+Failing tests: 2
+  - org.apache.commons.cli.HelpFormatterTest::testRenderWrappedTextWordCut
+  - org.apache.commons.cli.HelpFormatterTest::testFindWrapPos
+NEW_CODE
+Failing tests: 1
+  - org.apache.commons.cli.HelpFormatterTest::testIndentedHeaderAndFooter
+NEW_CODE
+Failing tests: 2
+  - org.apache.commons.cli.CommandLineTest::testGetParsedOptionValue
+  - org.apache.commons.cli.OptionBuilderTest::testTwoCompleteOptions
+NEW_CODE
+Failing tests: 1
+  - org.apache.commons.cli.bug.BugCLI252Test::testExactOptionNameMatch
+NEW_CODE
+Failing tests: 1
+  - org.apache.commons.cli.bug.BugCLI266Test::testOptionComparatorInsertedOrder
+NEW_CODE
+Failing tests: 1
+  - org.apache.commons.cli.bug.BugCLI265Test::shouldParseShortOptionWithoutValue
+NEW_CODE
+Failing tests: 1
+  - org.apache.commons.cli.bug.BugCLI265Test::shouldParseConcatenatedShortOptions
+NEW_CODE
+Failing tests: 2
+  - org.apache.commons.cli.PatternOptionBuilderTest::testExistingFilePattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testExistingFilePatternFileNotExist
+NEW_CODE
+Failing tests: 1
+  - org.apache.commons.cli.TypeHandlerTest::testCreateValueInteger_failure
